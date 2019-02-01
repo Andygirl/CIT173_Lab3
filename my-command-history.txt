@@ -1,0 +1,217 @@
+    1  mkdir CIT173_Lab1
+    2  ls
+    3  export FAVORITE_ANIMAL=My_Puppy
+    4  export MY_AGE=47
+    5  export BEST_PIZZA_TOPPING=Garlic
+    6  export MY_MIDDLE_NAME=NONE
+    7  export MY_CAR_MAKE=Honda
+    8  env |more
+    9  uname -a
+   10  cd ~/CIT73_Lab1/my-sys-info.txt
+   11  env
+   12  env > ~/CIT173_Lab1/my-env.txt
+   13  uname > ~/CIT173_Lab1/my-sys-info.txt
+   14  cat /etc/group
+   15  cat > ~/CIT173_Lab1/my-groups.txt
+   16  cat /etc/group > ~/CIT173_Lab1//my-groups.txt
+   17  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1//file1.dat
+   18  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1/file2.dat
+   19  cat ~/CIT173_Lab1/file1.dat > ~/CIT173_Lab1/my-concat-file.dat
+   20  cat ~/CIT173_Lab1/file2.dat > ~/CIT173_Lab1/my-concat-file.dat
+   21  sed s/1/monkey/ ~/CIT173_Lab1/my-concat-file.dat >~/CIT173_Lab1/monkey.dat
+   22  git config --global Andygirl
+   23  git config --global user.name Andygirl
+   24  cd ~/CIT173_Lab1/
+   25  git init
+   26  git remote add origin https://github.com/Andygirl/CIT173_Lab1.git
+   27  git add -all
+   28  git add --all
+   29  git commit -m -a "first commit"
+   30  git commit -m -a
+   31  git push origin master
+   32  shutdown
+   33  shutdown -c
+   34  poweroff
+   35  mkdir CIT173_Lab2
+   36  cd ~/CIT173_Lab2
+   37  echo$SHELL
+   38  echo $SHELL
+   39  echo $0
+   40  type bash
+   41  ls -al ~
+   42  cd ~
+   43  ls
+   44  get clone https://github.com/RenoTechnologyAcademy/CIT173_Lab_Files.git
+   45  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab_Files.git
+   46  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   47  ls
+   48  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2__Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   49  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+   50  wc ~/CIT173_Lab/my-phonebook.txt
+   51  wc ~/CIT173_Lab2/my-phonebook.txt
+   52  cat ~/CIT173_Lab2/my-phonebook.txt | less
+   53  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+   54  tac ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-phonebook-reverse.txt
+   55  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my_joined-phonebook.txt
+   56  unexpand -a -t ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   57  man unexpand
+   58  unexpand -a --tabs=2 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   59  cat ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   60  sort ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-sorted-phonebook.txt
+   61  cat ~/CIT173_Lab2/my-sorted-phonebook.txt
+   62  nl ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt
+   63  cat ~/CIT173_Lab2/my-numbered-phonebook.txt 
+   64  head ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   65  cat ~/CIT173_Lab2/my-head-phonebook.txt
+   66  head -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   67  cat ~/CIT173_Lab2/my-head-phonebook.txt
+   68  tail -n 5 ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt
+   69  cat ~/CIT173_Lab2/my-tail-phonebook.txt
+   70  history > ~/CIT173_Lab2/my-command-history.txt
+   71  cd ~/CIT173_Lab2_Files
+   72  git init
+   73  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+   74  git add --all
+   75  git commit -m "Initial commit"
+   76  git init
+   77  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+   78  git add --all
+   79  git commit -m "Initial commit"
+   80  git init
+   81  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+   82  git add --all
+   83  git commit -m
+   84  git push origin master
+   85  git push -u origin master
+   86  git push origin master
+   87  cd ~/CIT173_Lab2
+   88  ls
+   89  git init
+   90  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+   91  git add --all
+   92  git commit -m
+   93  git push origin master
+   94  git commit -m "initial commit"
+   95  git init
+   96  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+   97  git add --all
+   98  git commit -m "initial commit"
+   99  git commit -m "Initial commit."
+  100  git commit -m
+  101  git push origin master
+  102  git add --all
+  103  git init
+  104  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  105  git add --all
+  106  git commit -m -a
+  107  git config --global user.name Andygirl
+  108  git init
+  109  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  110  git add --all
+  111  git commit -m initial commit
+  112  git commit -m
+  113  git commit -m ""
+  114  git push origin master
+  115  reboot
+  116  cd ~/CIT173_Lab2
+  117  ls
+  118  git init
+  119  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  120  git add --all
+  121  git commit -m
+  122  git push origin master
+  123  git config --global user.name Andygirl
+  124  git init
+  125  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  126  git add --all
+  127  git commit -m
+  128  git push origin master
+  129  git init
+  130  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  131  git add --all
+  132  git commit -m -a
+  133  git push origin master
+  134  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  135  git add -all
+  136  git add --all
+  137  git commit -m
+  138  git push origin master
+  139  git config --global user.name "Andygirl"
+  140  git config --global user.email "andy@andygirlweb.design"
+  141  git init
+  142  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  143  git add --all
+  144  git commit -m
+  145  git push origin master
+  146  git push -u origin master
+  147  git remote remove origin https://github.com/Andygirl/CIT173_Lab2.git
+  148  git init
+  149  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  150  git remote remove origin
+  151  git init
+  152  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  153  git add --all
+  154  git commit -m
+  155  git push origin master
+  156  poweroff
+  157  cd ~/CIT173_Lab2
+  158  git config --global user.name Andygirl
+  159  git init
+  160  git remote add origin https://github.com/Andygirl/CIT173_Lab2.git
+  161  git add --all
+  162  git commit -m -a
+  163  git push origin master
+  164  git push https://github.com/Andygirl/CIT173_Lab2.git
+  165  git push origin master
+  166  cd
+  167  exit
+  168  mkdir CIT173_Lab3
+  169  ls
+  170  whoami
+  171  cd ~
+  172  ls
+  173  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files
+  174  ls
+  175  ls -al
+  176  cd ../CIT173_Lab3_Files/
+  177  ls
+  178  cd ~/CIT173_Lab3_Files
+  179  ls -al
+  180  cd ../CIT173_Lab3/
+  181  ls
+  182  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz
+  183  cat ~/CIT173_Lab3/phonebook1.txt
+  184  sudo cat ~/CIT173_Lab3/phonebook1.txt
+  185  sudo sed -l's/575/775/g' ~/CIT173_Lab3/phonebook1.txt
+  186  sudo sed -l 's/575/775/g' ~/CIT173_Lab3/phonebook1.txt
+  187  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook1.txt
+  188  sudo cat ~/CIT173_Lab3/phonebook1.txt
+  189  sudo sed -i 's/575/775/g' ~/CIT173_Lab3/phonebook2.txt
+  190  sudo cat ~/CIT173_Lab3/phonebook2.txt
+  191  sudo -i
+  192  ls -al
+  193  sudo -i
+  194  man apt
+  195  apt-get install python3-minimal
+  196  sudo apt-get install python3-minimal
+  197  apt list --installed > ~/CIT173_Lab3/my-installed-1.txt
+  198  ls -al
+  199  cat my-installed-1.txt 
+  200  python ~/CIT173_Lab3_Files/hello.py
+  201  python3 ~/CIT173_Lab3_Files/hello.py
+  202  python3 ~/CIT173_Lab3_Files/hello.py >~/CIT173_Lab3/my-python-ourtput.txt
+  203  ls -al
+  204  python3 ~/CIT173_Lab3_Files/infinite.py &
+  205  ps
+  206  man ps
+  207  ps -A > ~/CIT173_Lab3/my-processes-1.txt
+  208  ls -al
+  209  kill -s SIGTERM 12748
+  210  ps -A > ~/CIT173_Lab3/my-processes-2.txt
+  211* 
+  212  sudo apt-get remove python3-minimal
+  213  apt list --installed > ~/CIT173_Lab3/my-installed-2.txt
+  214  ls -al
+  215  history > -/CIT173_Lab/my-command-history.txt
+  216  history > ~/CIT173_Lab/my-command-history.txt
+  217  history > ~/CIT173_Lab3/my-command-history.txt
